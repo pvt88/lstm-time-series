@@ -100,5 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 
-#notebook checkpoints
+# notebook checkpoints
 .ipynb_checkpoints
+
+# exclude the resources folders due to size
+resources/*
